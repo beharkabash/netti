@@ -1,0 +1,29 @@
+# Virtual environment - MOST IMPORTANT!
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Data and logs
+*.log
+*.db
+*.db-shm
+*.db-wal
+data/
+.data/
+seen_listings.json
+specs_listings.json
+
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Chrome/Selenium
+.local/
+chromedriver
+
+# Misc
+setup_railway.sh
